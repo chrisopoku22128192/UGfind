@@ -53,7 +53,7 @@ export default function SignupScreen() {
       />
       <TextInput
         style={[styles.input, { backgroundColor: isDark ? '#333' : '#f0f0f0', color: isDark ? '#fff' : '#000' }]}
-        placeholder="Email"
+        placeholder="School Email"
         placeholderTextColor={isDark ? '#888' : '#666'}
         keyboardType="email-address"
         autoCapitalize="none"

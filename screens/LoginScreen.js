@@ -46,7 +46,7 @@ export default function LoginScreen({ setUserLoggedIn }) {
       {/* Login Form */}
       <TextInput
         style={[styles.input, { backgroundColor: isDark ? '#333' : '#eee' }]}
-        placeholder="Email"
+        placeholder="School Email"
         placeholderTextColor={isDark ? '#aaa' : '#666'}
         value={email}
         onChangeText={setEmail}
